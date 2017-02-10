@@ -1,0 +1,3 @@
+<!-- BEGIN_INCLUDE(opc1:greet) -->
+    <opc1:greet config-ref="" friend="#[map-payload:friend]" />
+<!-- END_INCLUDE(opc1:greet) -->

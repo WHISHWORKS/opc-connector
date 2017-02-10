@@ -1,12 +1,27 @@
+# Maven
+target/
+demo/**/target/
+
+# Java
 *.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
-*.ear
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# eclipse
+bin/
+.svn/
+.classpath
+.settings/
+.project
+.factorypath
+.metadata
+
+demo/**/bin/
+demo/**/.settings/
+demo/**/.classpath
+demo/**/.project
+
+# Mule Studio
+.studio
+demo/**/catalog
+
